@@ -69,8 +69,9 @@ pub fn get_modifier(id: &String) -> Option<Modifier> {
             return Some(modifier.clone())
         }
         None => {
-            // todo!()
-            None
+            println!("UNKNOWN {}", id);
+            todo!()
+            // None
         }
     }
 }
